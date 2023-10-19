@@ -1,0 +1,39 @@
+
+class Car{
+    constructor(brand,model,color,year,speed,fuelCapasity,km,fuelFor1km,currentFuel){
+        this.brand=brand
+        this.model=model
+        this.color=color
+        this.year=year
+        this.speer=speed
+        this.fuelCapasity=fuelCapasity
+        this.km=km
+        this.fuelFor1km=fuelFor1km
+        this.currentFuel=currentFuel
+    }
+}
+ ShowInfo(){
+brand:${this.branch}
+model:${this.model}
+color:${this.color}
+year:${this.year}
+speed:${this.speed}
+fuelCapasity:${this.fuelCapasity}
+km:${this.km}
+fuelFor1km:${fuelFor1km}
+currentFuel:${currentFuel}
+}
+AddFuel(yanacaq){
+    if(this.currentFuel+AddFuel>this.fuelCapasity){
+
+    }else{
+        this.currentFuel=this.currentFuel+AddFuel
+        return yanacaq ugurla elave edildi
+    }
+}
+drive(yol){
+    let requredFuel=yol*this.fuelFor1km
+    if(requredFuel<this.currentFuel){
+        return ünvana çatdiq
+    }
+}
